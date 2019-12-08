@@ -1,0 +1,40 @@
+{
+  "number": "US7267351B2",
+  "title": "Frame assembly for a bicycle",
+  "abstract": [
+    "<p id=\"a1\">A bicycle including a frame having a main frame portion and an articulating frame portion pivotally mounted to the main frame portion and carrying a rear wheel of the bicycle. A shock absorber preferably is operably connected between the main frame portion and the articulating frame portion. Preferably, the top tube and down tube of the main frame contact one another for a distance extending rearwardly from the head tube of the main frame. In one arrangement, the down tube has a non-circular cross-sectional shape.</p>"
+  ],
+  "description": [
+    "<p id=\"d1\"><b>RELATED APPLICATIONS</b></p>",
+    "<p id=\"d2\">This application is a continuation of U.S. patent application Ser. No. 10/985,384, filed Nov. 10, 2004, now U.S. Pat. No. 6,953,202, which is a continuation of U.S. patent application Ser. No. 10/811,765, filed Mar. 29, 2004, now U.S. Pat. No. 6,866,281, which is a continuation of U.S. patent application Ser. No. 10/135,052, filed Apr. 29, 2002, now U.S. Pat. No. 6,712,373, which claims priority from U.S. Provisional Patent Application No. 60/372,982, filed Apr. 15, 2002.</p>",
+    "<p id=\"d3\"><b>INCORPORATION BY REFERENCE</b></p>",
+    "<p id=\"d4\">The entireties of U.S. patent application Ser. No. 10/985,384, filed Nov. 10, 2004; Ser. No. 10/811,765, filed Mar. 29, 2004; and No. 10/135,052, filed Apr. 29, 2002 and U.S. Provisional Patent Application No. 60/372,982, filed Apr. 15, 2002 are hereby expressly incorporated by reference herein and made a part of this specification.</p>",
+    "<p id=\"d5\"><b>BACKGROUND OF THE INVENTION</b></p>",
+    "<p id=\"d7\">1. Field of the Invention</p>",
+    "<p id=\"d8\">The present invention relates generally to bicycles. More particularly, the present invention relates to a bicycle frame preferably including a rear wheel suspension assembly suitable for use in connection with off-road bicycles.</p>",
+    "<p id=\"d9\">2. Description of the Related Art</p>",
+    "<p id=\"d10\">Off-road bicycles, or mountain bikes, may be equipped with front and rear suspension assemblies operably positioned between the front and rear wheels, respectively, and the frame of the bicycle. Providing front and rear suspension on a mountain bike potentially improves handling and performance by absorbing bumps, and other rough trail conditions, which may be encountered while riding off-road. However, because mountain bikes are typically pedal-driven, i.e., use the rider's power output to propel the bicycle, the provision of rear suspension, especially, may undesirably absorb a rider's power output, resulting in wasted effort.</p>",
+    "<p id=\"d11\">Accordingly, rear suspension systems commonly incorporated on engine-driven vehicles, such as motorcycles, have proven ineffective for use with pedal-driven vehicles, such as mountain bikes. In addition, because a mountain bike is propelled solely by power output from the rider, it is desirable that the rear suspension assembly be lightweight. Rear suspension systems of engine-driven vehicles commonly emphasize strength over weight and, therefore, have not been widely incorporated on mountain bikes.</p>",
+    "<p id=\"d12\">Mountain bike rear suspension designs utilizing multiple linkage members are currently used and are often effective at isolating pedal-induced and brake-induced forces from acting on the rear suspension. However, one problem associated with prior mountain bike rear suspension designs involves placement of the rear shock absorber. Due to the relatively complex nature of common mountain bike rear suspension assemblies, the placement of the rear shock absorber has often precluded the use of a traditional triangular mainframe of the mountain bike. For example, typical rear shock placement has either precluded the use of a vertical seat tube member of the mainframe, or has been positioned within the internal space defined by the mainframe. As the down tube and the seat tube members of the mainframe have traditionally been provided with mounts, or bosses, for mounting of water bottle cages, many designs incorporating rear suspension assemblies have inhibited the use of one, or both, of the traditional water bottle cage locations due to the placement of the rear shock absorber.</p>",
+    "<p id=\"d13\">Another problem with prior art bicycles that incorporate front and rear suspension is that the frame designs that have evolved to provide increasing amounts of front and rear wheel suspension travel have not properly addressed the increased force that is imparted on the frame due to the increased moment arm resulting from the increased length of the front suspension fork.</p>",
+    "<p id=\"d14\">Although this invention has been disclosed in the context of a preferred embodiment, it will be understood by those of skill in the art that the present invention extends beyond the specifically disclosed embodiments to other alternative embodiments and/or uses of the invention and obvious modifications and equivalents thereof. Accordingly, the invention is to be defined solely by the appended claims.</p>"
+  ],
+  "claims": [
+    "<p id=\"c1\">1. A bicycle, comprising:</p>",
+    "<p id=\"c2\">a front wheel;</p>",
+    "<p id=\"c3\">a rear wheel;</p>",
+    "<p id=\"c4\">a frame comprising a main frame portion and an articulating frame portion, said articulating frame portion comprising a multiple linkage assembly and carrying said rear wheel;</p>",
+    "<p id=\"c5\">a chain drive arrangement comprising a pedal crank configured to drive said rear wheel;</p>",
+    "<p id=\"c6\">a single shock absorber configured to produce substantially all of a spring force and a damping force in response to movement of said articulating frame portion relative to said main frame portion; wherein said shock absorber defines a longitudinal axis spaced from, and substantially parallel to, a central plane of said bicycle defined by said front and rear wheels.</p>",
+    "<p id=\"c7\">2. The bicycle of claim 1, wherein at least a portion of said shock absorber is positioned along side said rear wheel.</p>",
+    "<p id=\"c8\">3. The bicycle of claim 2, wherein one end of said shock absorber is coupled to said articulating frame portion within about five inches of a hub axis of said rear wheel.</p>",
+    "<p id=\"c9\">4. The bicycle of claim 3, wherein the other end of said shock absorber is coupled to the main frame portion.</p>",
+    "<p id=\"c10\">5. The bicycle of claim 1, wherein a ratio of travel of said rear wheel to travel of said shock absorber is less than about 2.6 to 1.</p>",
+    "<p id=\"c11\">6. The bicycle of claim 1, wherein a ratio of travel of said rear wheel to travel of said shock absorber is less than about 2 to 1.</p>",
+    "<p id=\"c12\">7. The bicycle of claim 1, wherein a ratio of travel of said rear wheel to travel of said shock absorber is less than about 1.8 to 1.</p>",
+    "<p id=\"c13\">8. The bicycle of claim 1, wherein said multiple linkage assembly comprises a pair of lower arms, a pair of upper arms and a link.</p>",
+    "<p id=\"c14\">9. The bicycle of claim 1, wherein a portion of said shock absorber is positioned between a link of said multiple linkage assembly and said rear wheel.</p>",
+    "<p id=\"c15\">10. The bicycle of claim 1, wherein an individual linkage member of said multiple linkage assembly is coupled to said main frame portion for rotation about an axis, one end of said shock absorber being coupled to said main frame for rotation about said axis.</p>",
+    "<p id=\"c16\">11. The bicycle of claim 1, wherein said articulating frame portion is coupled to said main frame portion for rotation about an axis, one end of said shock absorber being coupled to said main frame for rotation about said axis.</p>"
+  ]
+}
