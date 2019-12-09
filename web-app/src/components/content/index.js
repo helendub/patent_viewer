@@ -1,6 +1,8 @@
 import React from 'react';
 import {observer, inject} from "mobx-react";
 import Paragraph from "../paragraph"
+import {InputLabel, Input} from '@material-ui/core';
+
 
 @inject('patentDataStore', 'propertiesStore', 'favoriteStore')
 @observer
@@ -78,7 +80,8 @@ export default class Content extends React.Component {
             return (
                 <>
                     <form>
-                        <input type="text" onChange={(e) => patentStore.searchText = e.target.value}/>
+                        <InputLabel>Filter</InputLabel>
+                        <Input type="text" onChange={(e) => patentStore.searchText = e.target.value}/>
                     </form>
                     <article style={textStyle}>
                         {this.renderSection('Title', patentStore.title, propertiesStore.title)}

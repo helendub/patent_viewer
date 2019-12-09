@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {FormControl, InputLabel, Input} from '@material-ui/core';
+import {InputLabel, Input} from '@material-ui/core';
 import {observer, inject} from 'mobx-react'
 
 @inject('propertiesStore', 'patentDataStore')
@@ -10,7 +10,7 @@ export default class Header extends React.Component {
         super(props)
 
 
-        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
         this.processPatentData = this.processPatentData.bind(this);
 
     }
@@ -23,6 +23,21 @@ export default class Header extends React.Component {
             .then(res => res.json())
             .then(data => this.processPatentData(data))
             .catch(this.props.patentDataStore.patentFound = false);
+    }
+
+    handleChange(event) {
+        event.preventDefault();
+        const minLength = 9;
+        const maxLength = 15;
+        const patentDataStore = this.props.patentDataStore;
+        patentDataStore.patentNumber = event.target.value;
+        if (patentDataStore.patentNumber.length>minLength && patentDataStore.patentNumber.length<maxLength) {
+            console.log('fetch');
+        fetch("/patents/" + patentDataStore.patentNumber + ".json")
+            .then(res => res.json())
+            .then(data => this.processPatentData(data))
+            .catch(this.props.patentDataStore.patentFound = false);
+       }
     }
 
     processPatentData(inPatent) {
@@ -45,7 +60,7 @@ export default class Header extends React.Component {
                 <form onSubmit={this.handleSubmit}>
                     <InputLabel>Patent number:</InputLabel>
                     <Input style={style} type="text" name="patentNumber" value={patentDataStore.patentNumber}
-                           onChange={(e) => patentDataStore.patentNumber = e.target.value}/>
+                           onChange={this.handleChange}/>
                 </form>
             </>
         );
@@ -53,3 +68,7 @@ export default class Header extends React.Component {
 
 
 }
+
+/*                     <Input style={style} type="text" name="patentNumber" value={patentDataStore.patentNumber}
+                           onChange={(e) => patentDataStore.patentNumber = e.target.value}/>
+*/

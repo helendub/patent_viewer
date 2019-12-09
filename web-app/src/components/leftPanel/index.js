@@ -1,7 +1,6 @@
 import React from 'react';
 import {Select, MenuItem, InputLabel, Checkbox, FormControlLabel, Button} from '@material-ui/core';
-import {observer, inject} from 'mobx-react'
-
+import {observer, inject} from 'mobx-react';
 @inject('propertiesStore')
 @observer
 export default class LeftPanel extends React.Component {
@@ -76,6 +75,7 @@ export default class LeftPanel extends React.Component {
 
 
     }
+      
 
 
     render() {
@@ -125,28 +125,29 @@ export default class LeftPanel extends React.Component {
                 </Select>
 
                 <h3>Layout</h3>
-                <ul style={{listStyleType: "none"}}>
+                <ul style={{listStyleType: "none",
+                            paddingInlineStart: "0px"}}>
                     <li>
                         <FormControlLabel
-                            control={<Checkbox checked={state.title} name="title" style={{color: "grey"}}/>}
+                            control={<Checkbox checked={state.title} name="title" color="primary" />}
                             label="Title"
                             onChange={(e) => this.updateProperty('title', e.target.checked)}
                         /></li>
                     <li>
                         <FormControlLabel
-                            control={<Checkbox checked={state.abstract} name="abstract" style={{color: "grey"}}/>}
+                            control={<Checkbox checked={state.abstract} name="abstract" color="primary" />}
                             label="Abstract"
                             onChange={(e) => this.updateProperty('abstract', e.target.checked)}
                         /></li>
                     <li>
                         <FormControlLabel
-                            control={<Checkbox checked={state.description} name="description" style={{color: "grey"}}/>}
+                            control={<Checkbox checked={state.description} name="description" color="primary" />}
                             label="Description"
                             onChange={(e) => this.updateProperty('description', e.target.checked)}
                         /></li>
                     <li>
                         <FormControlLabel
-                            control={<Checkbox checked={state.claims} name="claims" style={{color: "grey"}}/>}
+                            control={<Checkbox checked={state.claims} name="claims" color="primary" />}
                             label="Claims"
                             onChange={(e) => this.updateProperty('claims', e.target.checked)}
                         /></li>
